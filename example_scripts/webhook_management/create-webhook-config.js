@@ -18,7 +18,7 @@ var WEBHOOK_URL = 'https://fathomless-brook-10318.herokuapp.com/webhooks/twitter
 
 // request options
 var request_options = {
-  url: 'https://api.twitter.com/1.1/account_activity/webhooks.json',
+  url: 'https://api.twitter.com/1.1/account_activity/all/twitterDev/webhooks.json',
   oauth: twitter_oauth,
   headers: {
     'Content-type': 'application/x-www-form-urlencoded'
