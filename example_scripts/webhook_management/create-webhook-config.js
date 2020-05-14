@@ -13,7 +13,7 @@ var twitter_oauth = {
   token_secret: nconf.get('TWITTER_ACCESS_TOKEN_SECRET')
 }
 
-var WEBHOOK_URL = 'https://your-webhook-url'
+var WEBHOOK_URL = 'https://fathomless-brook-10318.herokuapp.com/webhooks/twitter'
 
 
 // request options
